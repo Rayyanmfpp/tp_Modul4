@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿class Program
 {
     static void Main(string[] args)
@@ -8,3 +9,12 @@
         nimData.PrintData();
     }
 }
+=======
+﻿public class HaloGeneric
+{
+    public void SapaUser<T>(T input)
+    {
+        Console.WriteLine("Halo user " + input);
+    }
+}
+>>>>>>> generic-method
