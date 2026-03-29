@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 ﻿class Program
 {
     static void Main(string[] args)
@@ -9,7 +9,7 @@
         nimData.PrintData();
     }
 }
-=======
+
 ﻿public class HaloGeneric
 {
     public void SapaUser<T>(T input)
@@ -17,4 +17,18 @@
         Console.WriteLine("Halo user " + input);
     }
 }
->>>>>>> generic-method
+
+﻿
+public class DataGeneric<T>
+{
+    private T data;
+    public DataGeneric(T data)
+    {
+        this.data = data;
+    }
+    public void PrintData()
+    {
+        Console.WriteLine("Data yang tersimpan adalah: " + this.data);
+    }
+}
+
